@@ -12,7 +12,6 @@ import org.junit.Test;
 import ru.yandex.practicum.test.BaseTest;
 
 import static org.hamcrest.CoreMatchers.is;
-import static org.hamcrest.CoreMatchers.notNullValue;
 
 @Epic("Пользователи")
 @Feature("Управление пользователями. Авторизация")
