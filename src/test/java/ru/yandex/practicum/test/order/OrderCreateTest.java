@@ -46,7 +46,7 @@ public class OrderCreateTest extends BaseTest {
     @DisplayName("Create order with login")
     @Feature("Создание заказа с авторизацией")
     // Создаем заказ с авторизацией ингридиентами, код 200
-    public void ShouldCreateOrderWithLoginTest(){
+    public void shouldCreateOrderWithLoginTest(){
         userSteps
                 .createUser(user);
         userSteps
@@ -61,7 +61,7 @@ public class OrderCreateTest extends BaseTest {
     @DisplayName("Create  without login")
     @Feature("Создание заказа без авторизации")
     // Создаем заказ без авторизации и ингридиентами, должна быть ошибка
-    public void ShouldCreateOrderWithoutLoginTest(){
+    public void shouldCreateOrderWithoutLoginTest(){
                 orderSteps
                 .createOrder(order)
                 .statusCode(200)
@@ -72,7 +72,7 @@ public class OrderCreateTest extends BaseTest {
     @DisplayName("Create order without ingredients")
     @Feature("Создание заказа без ингридиентов")
     // Создаем заказ с авторизацией, код 200
-    public void ShouldCreateOrderWithoutIngredientsTest(){
+    public void shouldCreateOrderWithoutIngredientsTest(){
         userSteps
                 .createUser(user);
         userSteps
@@ -88,7 +88,7 @@ public class OrderCreateTest extends BaseTest {
     @DisplayName("Create order with bad hash")
     @Feature("Создание заказа с плохим хэшем ингридиента")
     // Создаем заказ с авторизацией, код 200
-    public void ShouldCreateOrderBadHashTest(){
+    public void shouldCreateOrderBadHashTest(){
         userSteps
                 .createUser(user);
         userSteps

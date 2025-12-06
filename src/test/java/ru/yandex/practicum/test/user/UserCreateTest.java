@@ -32,7 +32,7 @@ public class UserCreateTest extends BaseTest {
         @DisplayName("Create user")
         @Feature("Создание пользователя")
         // Создаем пользователя, код 200
-        public void ShouldCreateUserTest(){
+        public void shouldCreateUserTest(){
             userSteps
                     .createUser(user)
                     .statusCode(200)
@@ -43,7 +43,7 @@ public class UserCreateTest extends BaseTest {
     @DisplayName("Сreate a user who is already registered")
     @Feature("Создание пользователя, который уже зарегистрирован")
     // Создаем двух пользователей c одним логином, код 403
-    public void ShouldCreateDoubleUserTest(){
+    public void shouldCreateDoubleUserTest(){
         userSteps
                 .createUser(user);
         userSteps
@@ -56,7 +56,7 @@ public class UserCreateTest extends BaseTest {
     @DisplayName("Create user without name")
     @Feature("Создание пользователя без имени")
     // Создаем пользователя без имени
-    public void ShouldCreateUserTestWithoutName(){
+    public void shouldCreateUserTestWithoutName(){
         user.setName("");
         userSteps
                 .createUser(user)
@@ -68,7 +68,7 @@ public class UserCreateTest extends BaseTest {
     @DisplayName("Create user without email")
     @Feature("Создание пользователя без почты")
     // Создаем пользователя без почты
-    public void ShouldCreateUserTestWithoutEmail(){
+    public void shouldCreateUserTestWithoutEmail(){
         user.setEmail("");
         userSteps
                 .createUser(user)
@@ -80,7 +80,7 @@ public class UserCreateTest extends BaseTest {
     @DisplayName("Create user without password")
     @Feature("Создание пользователя без пароля")
     // Создаем пользователя без пароля
-    public void ShouldCreateUserTestWithoutPassword(){
+    public void shouldCreateUserTestWithoutPassword(){
         user.setPassword("");
         userSteps
                 .createUser(user)
