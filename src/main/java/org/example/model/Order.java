@@ -5,7 +5,7 @@ import com.fasterxml.jackson.annotation.JsonInclude;
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class Order {
     private String[] ingredients;
-    private Integer _id;
+    private Integer id;
     private String status;
     private String number;
     private String createdAt;
@@ -29,12 +29,12 @@ public class Order {
         this.ingredients = ingredients;
     }
 
-    public Integer get_id() {
-        return _id;
+    public Integer getId() {
+        return id;
     }
 
-    public void set_id(Integer _id) {
-        this._id = _id;
+    public void setId(Integer id) {
+        this.id = id;
     }
 
     public String getStatus() {
