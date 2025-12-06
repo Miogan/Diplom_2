@@ -1,8 +1,8 @@
 package ru.yandex.practicum.test.order;
 
 
-import Steps.OrderSteps;
-import Steps.UserSteps;
+import ru.practicum.steps.OrderSteps;
+import ru.practicum.steps.UserSteps;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
 

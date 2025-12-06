@@ -1,6 +1,6 @@
 package ru.yandex.practicum.test.user;
 
-import Steps.UserSteps;
+import ru.practicum.steps.UserSteps;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
 import io.qameta.allure.junit4.DisplayName;
