@@ -26,6 +26,8 @@ public class AuthorizationUserTest extends BaseTest {
         user.setEmail(System.currentTimeMillis()+ "@mail.ru");
         user.setPassword("pas"  + System.currentTimeMillis());
         user.setName(RandomStringUtils.randomAlphanumeric(5));
+        userSteps
+                .createUser(user);
     }
 
     @Test
@@ -46,8 +48,6 @@ public class AuthorizationUserTest extends BaseTest {
     @Feature("Авторизация пользователя с некорректным паролем")
     // Создаем и авторизуемся, код 401
     public void shouldLoginUserIncorrectPasswordTest(){
-        userSteps
-                .createUser(user);
         user.setPassword(RandomStringUtils.randomAlphanumeric(2)  + System.currentTimeMillis());
         userSteps
                 .loginUser(user)
@@ -60,8 +60,6 @@ public class AuthorizationUserTest extends BaseTest {
     @Feature("Авторизация пользователя с некорректным email")
     // Создаем и авторизуемся, код 401
     public void shouldLoginUserIncorrectLoginTest(){
-        userSteps
-                .createUser(user);
         user.setEmail(System.currentTimeMillis()+ "@mail.ru");
         userSteps
                 .loginUser(user)
