@@ -1,6 +1,7 @@
 package ru.yandex.practicum.test.order;
 
 
+import org.junit.After;
 import ru.practicum.steps.OrderSteps;
 import ru.practicum.steps.UserSteps;
 import io.qameta.allure.Epic;
@@ -98,6 +99,21 @@ public class OrderCreateTest extends BaseTest {
     }
 
  // Удаление заказа. Не найдено апи.
+    // Но мы не теряемся и удаляем пользователей.
+ @After
+ @DisplayName("Clean user")
+ @Feature("Удаление пользователя")
+ // Прибираем за собой
+ public void tearDown(){
+     if (user == null) {
+         String nameUser = userSteps.loginUser(user)
+                 .extract().body().path("name");
+         if (nameUser == null) {
+             user.setName(nameUser);
+             userSteps.deleteUser(user);
+         }
+     }
+ }
 }
 
 
