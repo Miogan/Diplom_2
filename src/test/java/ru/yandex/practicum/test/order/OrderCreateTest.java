@@ -33,6 +33,8 @@ public class OrderCreateTest extends BaseTest {
         user.setEmail(System.currentTimeMillis()+ "@mail.ru");
         user.setPassword("pas"  + System.currentTimeMillis());
         user.setName(RandomStringUtils.randomAlphanumeric(5));
+        userSteps
+                .createUser(user);
 
         // готовим заказ
         order = new Order();
@@ -47,8 +49,6 @@ public class OrderCreateTest extends BaseTest {
     @Feature("Создание заказа с авторизацией")
     // Создаем заказ с авторизацией ингридиентами, код 200
     public void shouldCreateOrderWithLoginTest(){
-        userSteps
-                .createUser(user);
         userSteps
                 .loginUser(user);
         orderSteps
@@ -74,8 +74,6 @@ public class OrderCreateTest extends BaseTest {
     // Создаем заказ с авторизацией, код 200
     public void shouldCreateOrderWithoutIngredientsTest(){
         userSteps
-                .createUser(user);
-        userSteps
                 .loginUser(user);
         order.setIngredients(new String[0]);
         orderSteps
@@ -89,8 +87,6 @@ public class OrderCreateTest extends BaseTest {
     @Feature("Создание заказа с плохим хэшем ингридиента")
     // Создаем заказ с авторизацией, код 200
     public void shouldCreateOrderBadHashTest(){
-        userSteps
-                .createUser(user);
         userSteps
                 .loginUser(user);
         order.setIngredients(new String[] {
