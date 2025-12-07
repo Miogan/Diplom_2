@@ -1,0 +1,111 @@
+{
+  "uid" : "f7d245194b496d76",
+  "name" : "Create user & authorization incorrect login",
+  "fullName" : "ru.yandex.practicum.test.user.AuthorizationUserTest.shouldLoginUserIncorrectPasswordTest",
+  "historyId" : "429b018b417184813a2146bbb0ac7ed0",
+  "time" : {
+    "start" : 1765129569506,
+    "stop" : 1765129569923,
+    "duration" : 417
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Создание пользователя",
+      "time" : {
+        "start" : 1765129569523,
+        "stop" : 1765129569707,
+        "duration" : 184
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "org.example.model.User@7a4199e5"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Создание пользователя",
+      "time" : {
+        "start" : 1765129569707,
+        "stop" : 1765129569889,
+        "duration" : 182
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "org.example.model.User@7a4199e5"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ru.yandex.practicum.test.user"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.yandex.practicum.test.user.AuthorizationUserTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "shouldLoginUserIncorrectPasswordTest"
+  }, {
+    "name" : "suite",
+    "value" : "ru.yandex.practicum.test.user.AuthorizationUserTest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-0Q0VPUNE"
+  }, {
+    "name" : "thread",
+    "value" : "19136@LAPTOP-0Q0VPUNE.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Авторизация пользователя с некорректным паролем"
+  }, {
+    "name" : "epic",
+    "value" : "Пользователи"
+  }, {
+    "name" : "feature",
+    "value" : "Управление пользователями. Авторизация"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f7d245194b496d76.json",
+  "parameterValues" : [ ]
+}
