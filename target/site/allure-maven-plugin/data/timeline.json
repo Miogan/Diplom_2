@@ -1,0 +1,169 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "LAPTOP-0Q0VPUNE",
+    "children" : [ {
+      "name" : "19136@LAPTOP-0Q0VPUNE.main(1)",
+      "children" : [ {
+        "name" : "Create user",
+        "uid" : "97c1681d7cf51e33",
+        "parentUid" : "001c2cca6d1ec4ca9cbcf945f07623ee",
+        "status" : "passed",
+        "time" : {
+          "start" : 1765129571157,
+          "stop" : 1765129571325,
+          "duration" : 168
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create order with login",
+        "uid" : "2fba221dd2cba5b8",
+        "parentUid" : "001c2cca6d1ec4ca9cbcf945f07623ee",
+        "status" : "passed",
+        "time" : {
+          "start" : 1765129567756,
+          "stop" : 1765129568306,
+          "duration" : 550
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create user without password",
+        "uid" : "3a1b906eafb87bcd",
+        "parentUid" : "001c2cca6d1ec4ca9cbcf945f07623ee",
+        "status" : "passed",
+        "time" : {
+          "start" : 1765129571456,
+          "stop" : 1765129571539,
+          "duration" : 83
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create  without login",
+        "uid" : "29f6a272218e575a",
+        "parentUid" : "001c2cca6d1ec4ca9cbcf945f07623ee",
+        "status" : "passed",
+        "time" : {
+          "start" : 1765129561390,
+          "stop" : 1765129567639,
+          "duration" : 6249
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Сreate a user who is already registered",
+        "uid" : "ef84ae94f7b7851e",
+        "parentUid" : "001c2cca6d1ec4ca9cbcf945f07623ee",
+        "status" : "passed",
+        "time" : {
+          "start" : 1765129570873,
+          "stop" : 1765129571139,
+          "duration" : 266
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create user & authorization incorrect email",
+        "uid" : "cc70ddb707148b3f",
+        "parentUid" : "001c2cca6d1ec4ca9cbcf945f07623ee",
+        "status" : "passed",
+        "time" : {
+          "start" : 1765129569923,
+          "stop" : 1765129570223,
+          "duration" : 300
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create user & authorization",
+        "uid" : "db1d85420a2da12a",
+        "parentUid" : "001c2cca6d1ec4ca9cbcf945f07623ee",
+        "status" : "passed",
+        "time" : {
+          "start" : 1765129570223,
+          "stop" : 1765129570740,
+          "duration" : 517
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create user & authorization incorrect login",
+        "uid" : "f7d245194b496d76",
+        "parentUid" : "001c2cca6d1ec4ca9cbcf945f07623ee",
+        "status" : "passed",
+        "time" : {
+          "start" : 1765129569506,
+          "stop" : 1765129569923,
+          "duration" : 417
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create order without ingredients",
+        "uid" : "8022ab037394477a",
+        "parentUid" : "001c2cca6d1ec4ca9cbcf945f07623ee",
+        "status" : "passed",
+        "time" : {
+          "start" : 1765129569023,
+          "stop" : 1765129569496,
+          "duration" : 473
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create user without email",
+        "uid" : "e9160ea04690eea3",
+        "parentUid" : "001c2cca6d1ec4ca9cbcf945f07623ee",
+        "status" : "passed",
+        "time" : {
+          "start" : 1765129571340,
+          "stop" : 1765129571439,
+          "duration" : 99
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create user without name",
+        "uid" : "94098184c7c17a63",
+        "parentUid" : "001c2cca6d1ec4ca9cbcf945f07623ee",
+        "status" : "passed",
+        "time" : {
+          "start" : 1765129570756,
+          "stop" : 1765129570873,
+          "duration" : 117
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create order with bad hash",
+        "uid" : "bc7317838cebbb1e",
+        "parentUid" : "001c2cca6d1ec4ca9cbcf945f07623ee",
+        "status" : "passed",
+        "time" : {
+          "start" : 1765129568323,
+          "stop" : 1765129569006,
+          "duration" : 683
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "001c2cca6d1ec4ca9cbcf945f07623ee"
+    } ],
+    "uid" : "2b694338cc994445ea0d4766cd8a9deb"
+  } ]
+}

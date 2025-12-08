@@ -1,0 +1,129 @@
+{
+  "uid" : "8022ab037394477a",
+  "name" : "Create order without ingredients",
+  "fullName" : "ru.yandex.practicum.test.order.OrderCreateTest.shouldCreateOrderWithoutIngredientsTest",
+  "historyId" : "f37018f05e384ec6193eba746daf7fdc",
+  "time" : {
+    "start" : 1765129569023,
+    "stop" : 1765129569496,
+    "duration" : 473
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Создание пользователя",
+      "time" : {
+        "start" : 1765129569023,
+        "stop" : 1765129569206,
+        "duration" : 183
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "org.example.model.User@779cda39"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Создание пользователя",
+      "time" : {
+        "start" : 1765129569206,
+        "stop" : 1765129569389,
+        "duration" : 183
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "org.example.model.User@779cda39"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Создание заказа",
+      "time" : {
+        "start" : 1765129569389,
+        "stop" : 1765129569473,
+        "duration" : 84
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "order",
+        "value" : "org.example.model.Order@179f30b7"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ru.yandex.practicum.test.order"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.yandex.practicum.test.order.OrderCreateTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "shouldCreateOrderWithoutIngredientsTest"
+  }, {
+    "name" : "suite",
+    "value" : "ru.yandex.practicum.test.order.OrderCreateTest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-0Q0VPUNE"
+  }, {
+    "name" : "thread",
+    "value" : "19136@LAPTOP-0Q0VPUNE.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Создание заказа без ингридиентов"
+  }, {
+    "name" : "epic",
+    "value" : "Заказы"
+  }, {
+    "name" : "feature",
+    "value" : "Управление заказами"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8022ab037394477a.json",
+  "parameterValues" : [ ]
+}

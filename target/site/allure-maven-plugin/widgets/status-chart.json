@@ -1,0 +1,121 @@
+[ {
+  "uid" : "29f6a272218e575a",
+  "name" : "Create  without login",
+  "time" : {
+    "start" : 1765129561390,
+    "stop" : 1765129567639,
+    "duration" : 6249
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ef84ae94f7b7851e",
+  "name" : "Сreate a user who is already registered",
+  "time" : {
+    "start" : 1765129570873,
+    "stop" : 1765129571139,
+    "duration" : 266
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "94098184c7c17a63",
+  "name" : "Create user without name",
+  "time" : {
+    "start" : 1765129570756,
+    "stop" : 1765129570873,
+    "duration" : 117
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bc7317838cebbb1e",
+  "name" : "Create order with bad hash",
+  "time" : {
+    "start" : 1765129568323,
+    "stop" : 1765129569006,
+    "duration" : 683
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "97c1681d7cf51e33",
+  "name" : "Create user",
+  "time" : {
+    "start" : 1765129571157,
+    "stop" : 1765129571325,
+    "duration" : 168
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cc70ddb707148b3f",
+  "name" : "Create user & authorization incorrect email",
+  "time" : {
+    "start" : 1765129569923,
+    "stop" : 1765129570223,
+    "duration" : 300
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f7d245194b496d76",
+  "name" : "Create user & authorization incorrect login",
+  "time" : {
+    "start" : 1765129569506,
+    "stop" : 1765129569923,
+    "duration" : 417
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3a1b906eafb87bcd",
+  "name" : "Create user without password",
+  "time" : {
+    "start" : 1765129571456,
+    "stop" : 1765129571539,
+    "duration" : 83
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8022ab037394477a",
+  "name" : "Create order without ingredients",
+  "time" : {
+    "start" : 1765129569023,
+    "stop" : 1765129569496,
+    "duration" : 473
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e9160ea04690eea3",
+  "name" : "Create user without email",
+  "time" : {
+    "start" : 1765129571340,
+    "stop" : 1765129571439,
+    "duration" : 99
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2fba221dd2cba5b8",
+  "name" : "Create order with login",
+  "time" : {
+    "start" : 1765129567756,
+    "stop" : 1765129568306,
+    "duration" : 550
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "db1d85420a2da12a",
+  "name" : "Create user & authorization",
+  "time" : {
+    "start" : 1765129570223,
+    "stop" : 1765129570740,
+    "duration" : 517
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
