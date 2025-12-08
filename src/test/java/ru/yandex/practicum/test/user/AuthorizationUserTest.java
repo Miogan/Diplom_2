@@ -51,7 +51,8 @@ public class AuthorizationUserTest extends BaseTest {
         userSteps
                 .loginUser(user)
                 .statusCode(401)
-                .body("success", is(false));
+                .body("success", is(false))
+                .body("message", is("email or password are incorrect"));
     }
 
     @Test
@@ -63,7 +64,8 @@ public class AuthorizationUserTest extends BaseTest {
         userSteps
                 .loginUser(user)
                 .statusCode(401)
-                .body("success", is(false));
+                .body("success", is(false))
+                .body("message", is("email or password are incorrect"));
     }
 
     @After
